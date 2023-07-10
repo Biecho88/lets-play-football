@@ -1,4 +1,22 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    color: darkslategrey;
+}
+
+h2{
+     text-transform: uppercase;   
+     letter-spacing: 3px;
+     color: darkgreen;
+     font-weight: 900;
+}
+
+#logo{
+    float: left;
+    font-size: 250%;
 }
