@@ -21,6 +21,10 @@ h2{
     font-size: 250%;
 }
 
+#logo , #nav-links{
+    line-height: 30px;
+}
+
 #nav-links{
     font-size:100%;
     list-style-type:none;
