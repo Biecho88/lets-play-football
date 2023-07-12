@@ -41,10 +41,58 @@ h2{
     height: 1000px;
     width: 100%;
     background: url(../images/football.jpg) no-repeat center center;
+
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 #hero-outer{
     height: 800px;
     width: 100%;
     overflow: hidden;
+}
+
+@keyframes zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);    
+    }
+}
+
+
+#text-one{
+    font-size: 180%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    top: 200px;
+    left:80px;
+    position: absolute;
+
+}
+
+#text-two{
+    font-size: 180%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    top: 300px;
+    position: absolute;
+    left: 380px;
+}
+
+#text-three {
+    font-size: 180%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    top: 400px;
+    position: absolute;
+    left: 680px;
 }
