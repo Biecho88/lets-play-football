@@ -3,10 +3,10 @@ body{
 }
 
 h2{   
-     letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 2px;
      color: black;
      font-weight: 800;
-     font-style: italic;
 }
 
 h2:hover{
@@ -16,12 +16,12 @@ h2:hover{
 
 #logo{
     float: left;
-    font-size: 250%;
+    font-size: 200%;
     margin-left: 30px;
 }
 
 #logo , #nav-links{
-    line-height: 20px;
+    line-height: 25px;
 }
 
 
