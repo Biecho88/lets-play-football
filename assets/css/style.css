@@ -2,6 +2,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/****************************** Header styling ***************************************/
 h2{   
     font-family: Arial, Helvetica, sans-serif;
      letter-spacing: 2px;
@@ -24,11 +25,15 @@ h2:hover{
     line-height: 25px;
 }
 
+nav{
+    font-weight: 700;
+}
 
 #nav-links{
-    font-size:100%;
     list-style-type:none;
     letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 20;
 }
 
 #nav-links li{
@@ -39,8 +44,6 @@ h2:hover{
 .nav-buttons{
     letter-spacing: 4px;
     color: black;
-    font-weight: 400;
-    font-style: italic;
     text-decoration: none;
     font-size: 140%;
 }
@@ -52,6 +55,9 @@ h2:hover{
 .nav-buttons:hover{
     color: rgb(88, 88, 88);
 }
+
+/****************************** Hero image styling ***************************************/
+
 #hero-image{
     height: 1000px;
     width: 100%;
@@ -96,7 +102,7 @@ h2:hover{
     top: 400px;
     left: 150px;
 }
-
+/******************************footer styling ***************************************/
 .footer-container{
     width: 100%;
     line-height: 20px;
@@ -127,9 +133,8 @@ h2:hover{
     justify-content: center;
     color: black;
     opacity: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-/*Hover effects on social media icons */
 
 .social-icons a:hover{
     background-color: rgb(88, 88, 88);
