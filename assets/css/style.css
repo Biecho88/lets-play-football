@@ -141,4 +141,67 @@ nav{
     transition: 0.5s;
 }
 
+/****************************** Venue site styling ***************************************/
 
+.first-text{
+    width:100%;
+    float: right;
+    background-color: aqua;
+    text-align: center;
+    padding:200px;
+}
+
+.second-text {
+    width: 100%;
+    float: right;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 200px;
+}
+
+.third-text {
+    width: 100%;
+    float: right;
+    background-color: brown;
+    text-align: center;
+    padding: 200px;
+}
+/******************************footer styling ***************************************/
+.footer-container {
+    width: 100%;
+    line-height: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2px;
+}
+
+
+.social-icons a {
+    font-size: 2em;
+    color: black;
+    opacity: 20;
+    border-radius: 70%;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    color: black;
+    opacity: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social-icons a:hover {
+    background-color: rgb(88, 88, 88);
+    transition: 0.5s;
+}
