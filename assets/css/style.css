@@ -114,10 +114,12 @@ nav{
     padding: 115px;
     overflow: hidden;
     background: url(../images/football.jpg) no-repeat center center;
+    filter: opacity(0.8);
 }
 
 .first-text:hover{
     color: white;
+    filter:opacity(1)
 }
 
 
