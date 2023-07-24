@@ -6,9 +6,9 @@ body{
 
 h2{   
     font-family: Arial, Helvetica, sans-serif;
-     letter-spacing: 2px;
-     color: black;
-     font-weight: 800;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 800;
 }
 
 h2:hover{
@@ -70,6 +70,7 @@ nav{
 
 }
 
+
 #hero-outer{
     height: 800px;
     width: 100%;
@@ -109,39 +110,30 @@ nav{
 
 .first-text {
     width: 100%;
-    background-color: aqua;
-    text-align: left;
-    padding: 200px;
+    text-align: center;
+    padding: 115px;
     overflow: hidden;
-    position: relative;
+    background: url(../images/football.jpg) no-repeat center center;
 }
+
+.first-text:hover{
+    color: white;
+}
+
 
 .second-text {
     width: 100%;
     background-color: blueviolet;
     text-align: center;
-    padding: 200px;
+    padding: 115px;
 }
 
 .third-text {
     width: 100%;
-    background-color: brown;
+    background-color: aqua;
     text-align: center;
-    padding: 200px;
-}
-
-.first-image{
-    width: 600px;
-    height: 400px;
-
-
-    background-color: white;
-
-    bottom: 10px;
-    right: 120px;
-    top: 10px;
-
-    position: absolute;
+    padding: 115px;
+    overflow: hidden;
 }
 /******************************footer styling ***************************************/
 .footer-container{
