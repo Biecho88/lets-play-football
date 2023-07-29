@@ -165,6 +165,14 @@ p {
     letter-spacing: 3px;
     font-weight: 800;
 }
+/****************************** book.html styling ***************************************/
+
+#book-container {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    background-color: chartreuse;
+}
 
 /******************************footer styling ***************************************/
 .footer-container{
@@ -205,3 +213,4 @@ p {
     transition: 0.5s;
 }
 
+/****************************** book.html styling ***************************************/
