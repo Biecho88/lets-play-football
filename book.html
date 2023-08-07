@@ -38,10 +38,9 @@
         <div class="container-form"></div>
             <form>
                 <h1>Reservation online</h1>
-
                 <div class="form-field">
-                    <p>Your name</p>
-                    <input type="text" placeholder="Your Name">
+                    <p for="fname">Your name</p>
+                    <input type="text" id="fname" placeholder="Your Name">
                 </div>
                 <div class="form-field">
                     <p>Your email</p>
@@ -66,7 +65,15 @@
                         <option value="6+">6+ persons</option>
                     </select>
                 </div>
-                <button class="btn">Submit</button>
+                <div class="form-field">
+                    <p>Venue</p>
+                    <select name="select">
+                        <option value="1">Lodge Park</option>
+                        <option value="2">Camp Nou</option>
+                        <option value="3">Gdansk Arena</option>
+                    </select>
+                </div>
+                <button class="btn" onclick="alert ('Thanks for booking. We will confirm shortly')">Submit</button>
             </form>
         
     </section>
