@@ -406,3 +406,35 @@ input,select{
         margin-right: 5px;
     }
 }
+
+@media screen and (max-width:375px) {
+    .first-text {
+        height: 200px;
+        padding-top: 2px;
+        font-size: 90%;
+    }
+
+    .second-text {
+        height: 200px;
+        margin-top: 3px;
+        padding-top: 2px;
+    }
+
+    .third-text {
+        height: 200px;
+        margin-top: 3px;
+        padding-top: 1px;
+    }
+
+    .mobile {
+        padding-top: 1px;
+        font-size: 60%;
+    }
+    .social-icons {
+        font-size: 70%;
+    }
+    .footer-container{
+        line-height: 10%;
+    }
+
+}
