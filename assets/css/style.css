@@ -347,6 +347,13 @@ input,select{
         width: 100%;
         height:800px;
     }    
+    form {
+        font-size: 70%;
+    }
+    .book-container{
+        padding-left: 50px;
+        padding-right: 400px;
+    }
 
 }
 
@@ -395,7 +402,7 @@ input,select{
     #text-one, #text-two {
         left: 10px;
         font-size: 110%;
-        }
+    }
     .footer-bottom {
         font-size: 60%;
     }
@@ -464,5 +471,45 @@ input,select{
 
     .mobile {
         font-size: x-small;
+    }
+}
+
+@media screen and (max-width:1434px){
+    form {
+        font-size: 100%;
+    }
+    
+    .book-container {
+        padding-left: 20px;
+        padding-right: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    form {
+        font-size: 80%;
+    }
+
+    .book-container {
+        padding-left: 20px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    form {
+        font-size: 70%;
+    }
+
+    .book-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:1166px) {
+    #text-one, #text-two {
+        left: 20px;
+        font-size: 200%;
     }
 }
