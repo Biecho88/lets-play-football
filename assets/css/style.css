@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -283,7 +288,7 @@ input,select{
 
     #text-one , #text-two{
         left: 40px;
-        font-size: 150%;
+        font-size: 100%;
     }
     #logo {
         float: left;
@@ -401,7 +406,7 @@ input,select{
     }
     #text-one, #text-two {
         left: 10px;
-        font-size: 110%;
+        font-size: 100%;
     }
     .footer-bottom {
         font-size: 60%;
@@ -415,32 +420,31 @@ input,select{
     #nav-links li {
         letter-spacing: 1px;
         font-size: 40%;
-        margin-right: 5px;
+        margin-right: 2px;
     }
+    
 }
 
 @media screen and (max-width:375px) {
     .first-text {
-        height: 200px;
+        height: 400px;
         padding-top: 2px;
-        font-size: 90%;
     }
 
     .second-text {
-        height: 200px;
-        margin-top: 3px;
+        height: 400px;
+        margin-top: 2px;
         padding-top: 2px;
     }
 
     .third-text {
-        height: 200px;
-        margin-top: 3px;
-        padding-top: 1px;
+        height: 400px;
+        margin-top: 2px;
+        padding-top: 2px;
     }
 
     .mobile {
-        padding-top: 1px;
-        font-size: 60%;
+        font-size: 50%;
     }
     .social-icons {
         font-size: 70%;
@@ -511,5 +515,12 @@ input,select{
     #text-one, #text-two {
         left: 20px;
         font-size: 200%;
+    }
+
+@media screen and (max-width:466px) {
+    
+    #text-one,#text-two {
+        left: 20px;
+        font-size: 150%;
     }
 }
