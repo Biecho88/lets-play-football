@@ -228,10 +228,6 @@ input,select{
 
 .btn:hover{
     transform: scale(1.03);
-    -webkit-border-radius: scale(1.03);
-    -moz-border-radius:scale(1.03);
-    -ms-border-radius:scale(1.03);
-    -o-border-radius: scale(1.03);
     color:white;
 }
 
@@ -470,7 +466,7 @@ input,select{
     .third-text {
         height: 250px;
         margin-top: 3px;
-        padding: 10px;
+        padding-top: 10px !important;
     }
 
     .mobile {
@@ -516,11 +512,33 @@ input,select{
         left: 20px;
         font-size: 200%;
     }
+    .third-text{
+        padding: 40px;
+    }
 
 @media screen and (max-width:466px) {
-    
-    #text-one,#text-two {
+    #text-one, #text-two {
         left: 20px;
         font-size: 150%;
+    }
+}
+
+@media screen and (max-width:312px) {
+    form {
+        font-size: 40%;
+    }
+
+    .book-container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #nav-links li {
+        letter-spacing: 1px;
+        font-size: 50%;
+        margin-right: 2px;
+    }
+    #logo{
+        font-size: 80%;
     }
 }
