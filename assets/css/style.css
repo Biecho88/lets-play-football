@@ -121,6 +121,7 @@ nav{
     background: url(../images/venue1.jpg) no-repeat center center;
     filter: opacity(0.4);
     background-size: 90%;
+    text-shadow: 5px 5px 10px red;
 }
 
 .first-text:hover{
@@ -136,6 +137,7 @@ nav{
     filter: opacity(0.4);
     margin-top: 20px;
     background-size: 90%;
+    text-shadow: 5px 5px 10px red;
 }
 
 .second-text:hover {
@@ -152,6 +154,7 @@ nav{
     filter: opacity(0.4);
     margin-top: 20px;
     background-size: 90%;
+    text-shadow: 5px 5px 10px red;
 }
 
 .third-text:hover {
