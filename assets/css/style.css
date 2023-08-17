@@ -179,6 +179,9 @@ p {
     padding-top:20px;
 }
 
+.mobile{
+    font-size: x-large;
+}
 /****************************** book.html styling ***************************************/
 
 .book-container {
@@ -358,7 +361,10 @@ input,select{
         padding-left: 50px;
         padding-right: 400px;
     }
-
+    .mobile{
+        font-size: x-large;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -469,7 +475,7 @@ input,select{
     .third-text {
         height: 250px;
         margin-top: 3px;
-        padding-top: 10px !important;
+        padding-top: 10px;
     }
 
     .mobile {
