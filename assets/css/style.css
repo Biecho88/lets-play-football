@@ -388,13 +388,6 @@ input,select{
     }
 }
 
-@media screen and (max-height:1369px) {
-        #hero-outer {
-            width: 100%;
-            height: 900px;
-         }
-}
-
 @media screen and (max-width:280px) {
     #hero-outer {
         width: 110%;
@@ -541,5 +534,11 @@ input,select{
     }
     #logo{
         font-size: 80%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .mobile {
+        font-size: small;
     }
 }
