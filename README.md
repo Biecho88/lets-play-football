@@ -1,39 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center"> Lets Play Football</h1>
 
-Welcome,
+[View the live project here.](https://biecho88.github.io/lets-play-football/index.html)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the website where individual people can book their place/spot for casual football game without trying to find team to play with. It is designed to be responsive and accessible on a range of devices.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+# User Experience (UX)
 
-## Codeanywhere Reminders
+- ## *User stories*
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- #### First time visitor
 
-`python3 -m http.server`
+            1. As a First time visitor, I want to easly understand the main purpose of the site.
+            2. As a First time visitor, I want  to be able to easly navigate throughout the site to find content.
+            3. As a First time visitor, I want to easly complete booking form and receive confirmation that booking has been received.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- #### Returning Visitor goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+            1. As a returning visitor, I want to explore and try all of the venues to play at in offer.
+            2. As a returning visitor, I want to find community links.
+            3. 
 
-`http_server`
+- #### Frequent User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+            1. As a frequent user, I want to check if the new venues been added.
+            2. As a frequent user, I want to check if booking condintions has checnged.
+            3. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ## *Design*
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- #### Colour Scheme
 
-To log into the Heroku toolbelt CLI:
+            - The four main colours used are white, green, black and grey.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- #### Typography
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+            - The Arial font is the main font used throughout the whole website with sans Serif as the fall back font in case for any reason the font isn't being importer into the sire correctly.
 
----
+- #### Imagery
 
-Happy coding!
+            - The large hero image is used to atract users and show relevancy to the purose of the website.
+
+# Technologies used
+
+## Languages used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+## Frameworks, Libraries & Programs used
+
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+2. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+3. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+5. 
+
