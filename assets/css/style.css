@@ -442,6 +442,15 @@ input,select{
     .footer-container{
         line-height: 10%;
     }
+    #text-one{
+        margin-top: 10px;
+    }
+    #nav-links li {
+        letter-spacing: 3px;
+        font-size: 50%;
+        margin-right: 3px;
+    }
+
 
 }
 
@@ -509,7 +518,7 @@ input,select{
     .third-text{
         padding: 40px;
     }
-
+}
 @media screen and (max-width:466px) {
     #text-one, #text-two {
         left: 20px;
