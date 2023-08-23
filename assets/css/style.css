@@ -546,8 +546,14 @@ input,select{
     }
 }
 
-@media screen and (min-width:800px) {
+@media screen and (max-width:900px) {
     .mobile {
         font-size: small;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .mobile {
+        font-size: xx-small;
     }
 }
