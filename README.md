@@ -68,4 +68,67 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [Home page test results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Flets-play-football%2Findex.html)
 - [Venue page test results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Flets-play-football%2Fvenues.html)
-- [Booking in test results]()
+- [Booking in test results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Flets-play-football%2Fbook.html)
+- [CSS test results by text input](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Flets-play-football%2Fbook.html#textarea)
+
+### Testing User Stories from User Experience (UX) Section
+
+- ### First time visitor goals
+  
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+            1.Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text which explains purpose of the website.
+            2.The User has two options, check venues avelible or go straight to the booking form. Both can be accessed frrom navigation menu and will direct to seperate websites.
+
+    2.As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+            1.The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+            2.On the Booking Page, after a form response is submitted, USer is taken to the confirmation page and then redirected automaticly ato the Home page after 10 seconds.
+
+    3.As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
+
+            1.The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+
+### Further Testing
+
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 12 Pro Max & Samsung Galaxy S20
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+- On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page. A white gap can be seen to the right of the footer and navigation bar as a result.
+
+- On very wide screens a wide gap can be seen on right and left side. Text goes over the image which makes text unredable.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Biecho88/lets-play-football)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://biecho88.github.io/lets-play-football/index.html) in the "GitHub Pages" section.
+
+## Credits
+
+### Content
+
+- All content was written by the developer.
+
+### Media
+
+- All Images were taken from [Pixabay](https://pixabay.com/).
+
+### Acknowledgements
+
+- My Mentor for continuous helpful feedback.
+
+- Tutor support at Code Institute for their support.
+
+- Student support on slack [Link](https://app.slack.com/client/T0L30B202/C058BTPP7A5)
