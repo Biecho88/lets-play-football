@@ -57,5 +57,13 @@ This is the website where individual people can book their place/spot for casual
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-5. 
+5. [Pixabay](https://pixabay.com/)
+   -Pixabay is used for backround images to boost user experiance wisiting the website.
+6. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website - This was used in early stages but then change the way i was developing the website
 
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-
