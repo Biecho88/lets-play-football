@@ -66,4 +66,6 @@ This is the website where individual people can book their place/spot for casual
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--
+- [Home page test results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Flets-play-football%2Findex.html)
+- [Venue page test results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbiecho88.github.io%2Flets-play-football%2Fvenues.html)
+- [Booking in test results]()
