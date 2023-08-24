@@ -30,7 +30,7 @@ This is the website where individual people can book their place/spot for casual
 
 - #### Colour Scheme
 
-            - The four main colours used are white, green, black and grey.
+            - The four main colours used are white, green, black and grey.  
 
 - #### Typography
 
@@ -89,9 +89,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
             1.The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
 
-### Further Testing
+- #### Returning Visitor Goals
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+    1. As a Returning Visitor, I want to find and try new Venues.
+
+            1. These are clearly shown in venue page. Use can access this page by usine Venue burton on navigation menu.
+
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+            1. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+            2. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+- #### Frequent User Goals
+
+    1. As a Frequent User, I want to check to see if there are any newly added venues.
+
+           1. The user would already be comfortable with the website layout and can easily click venue navigation link.
+
+    2. As a Frequent User, I want to check to see if there are any new social media posts.
+
+           1. The user would already be comfortable with the website layout and can easily click the social media links in the footer.
+
+### Further testing
+
+- The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 12 Pro Max & Samsung Galaxy S20
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
