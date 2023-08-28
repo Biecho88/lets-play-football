@@ -2,6 +2,8 @@
 
 [View the live project here.](https://biecho88.github.io/lets-play-football/index.html)
 
+<h2 align="center"><img src="https://i.ibb.co/TM8DrP0/Moja-pierwsza-strona.jpg" alt="Moja-pierwsza-strona" border="0"></h2>
+
 This is the website where individual people can book their place/spot for casual football game without trying to find team to play with. It is designed to be responsive and accessible on a range of devices.
 
 # User Experience (UX)
@@ -58,7 +60,7 @@ This is the website where individual people can book their place/spot for casual
 4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 5. [Pixabay](https://pixabay.com/)
-   -Pixabay is used for backround images to boost user experiance wisiting the website.
+    - Pixabay is used for backround images to boost user experiance wisiting the website.
 6. [Bootstrap 5.1.3](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website - This was used in early stages but then change the way i was developing the website
 
@@ -80,12 +82,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
             1.Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text which explains purpose of the website.
             2.The User has two options, check venues avelible or go straight to the booking form. Both can be accessed frrom navigation menu and will direct to seperate websites.
 
-    2.As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
             1.The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
             2.On the Booking Page, after a form response is submitted, USer is taken to the confirmation page and then redirected automaticly ato the Home page after 10 seconds.
 
-    3.As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    3. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
             1.The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
 
@@ -135,6 +137,40 @@ The project was deployed to GitHub Pages using the following steps...
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://biecho88.github.io/lets-play-football/index.html) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
